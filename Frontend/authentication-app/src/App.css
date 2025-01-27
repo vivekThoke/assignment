@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #4cae4c;
+}
+
+form p {
+  color: #d9534f;
+  margin: 10px 0;
+}
+
+.header {
+  background-color: #030712;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header button {
+  background-color: #101c3a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.header button:hover {
+  background-color: #1a2c5b;
+  color: white;
+}
+
+.content {
+  padding: 20px;
+}
+
+.header nav a.active button {
+  background-color: #007bff;
+  color: white;
+}
+
+.home-page {
+  background-color: #0F172B;
+  color: gray;
+  height: 750px;
+}
+
+.home-page-content {
+  text-align: center;
+  text-wrap: pretty;
+  padding-top: 200px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.signupform{
+  padding-top: 100px;
+  background-color: #0F172B;
+  height: 700px;
+}
+
+.signupform-btn{
+  background-color: #101c3a;
+}
+
+.signupform-btn:hover {
+  background-color: #1a2c5b;
+  color: white;
+}
+
+.loginform{
+  padding-top: 100px;
+  background-color: #0F172B;
+  height: 700px;
+}
+
+.loginform-btn{
+  background-color: #101c3a;
+}
+
+.loginform-btn:hover {
+  background-color: #1a2c5b;
+  color: white;
+}
